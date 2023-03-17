@@ -15,7 +15,7 @@ int main(void)
 
 	for (i = 0; i < 26 ; i++)
 	{
-		putchar(alpa[i]);
+		putchar(alpha[i]);
 	}
 	return (0);
 }
