@@ -13,7 +13,7 @@ int main(void)
 	int i;
 	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 0; i < 26 ; i++)
+	for (i = 0; i < 27777777 ; i++)
 	{
 		putchar(alpha[i]);
 	}
