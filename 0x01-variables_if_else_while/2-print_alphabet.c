@@ -4,7 +4,6 @@
  * main - Entry point
  *
  * Description: 'the program's description'
- * @parameter: describe the parameter
  *
  * Return: Always 0 (Success)
  */
@@ -12,12 +11,11 @@
 int main(void)
 {
 	int i;
+	char apha[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 'A' ; i <= 'Z' ; i++)
+	for (i = 0; i < 26 ; i++)
 	{
-		char small = tolower(i);
-
-		putchar(small);
+		putchar(alpa[i]);
 	}
 	return (0);
 }
