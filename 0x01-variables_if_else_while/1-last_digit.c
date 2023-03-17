@@ -19,6 +19,7 @@ int main(void)
 	/* your code goes there */
 
 	/* Find last digit of a number */
+
 	int lastDigit = n % 10;
 
 	if (n == 0)
