@@ -11,7 +11,7 @@
 int main(void)
 {
         int i;
-        char alpha[26] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        char alpha[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
         for (i = 0; i < 52 ; i++)
         {
