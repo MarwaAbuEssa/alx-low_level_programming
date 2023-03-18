@@ -15,7 +15,7 @@ int main(void)
 
 	for (i = 0; i < 26 ; i++)
 	{
-		if (alpha[i] != "q" || alpha[i] != "e")
+		if (i != 4 || i != 16)
 		putchar(alpha[i]);
 	}
 	putchar('\n');
