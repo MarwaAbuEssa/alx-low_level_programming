@@ -10,10 +10,9 @@
 
 int main(void)
 {
-	int i;
-	char alpha[26] = "zyxvutsrqpomnlkjihgfedcba";
+	char i;
 
-	for (i = 26; i >= 0 ; i--)
+	for (i = 'z'; i >= 'a' ; i--)
 	{
 		putchar(alpha[i]);
 	}
