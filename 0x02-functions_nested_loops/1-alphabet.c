@@ -1,6 +1,21 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * print_alphabet - Print Alphabets In Lower case
+ *
+ */
+
+void print_alphabat(void)
+{
+	char i;
+
+	for (i = 'a' ; i <= 'z' ; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
+}
 
 /**
  * main - Entry Point
@@ -12,19 +27,4 @@ int main(void)
 {
 	print_alphabet();
 	return (0);
-}
-
-/**
- * print_alphabet - Prints Alphabets In Lower case
-*/
-
-void print_alphabet(void)
-{
-	char i;
-
-	for (i = 'a' ; i <= 'z' ; i++)
-	{
-		_putchar(i);
-	}
-	putchar('\n');
 }
