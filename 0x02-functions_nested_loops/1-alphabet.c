@@ -15,6 +15,7 @@ void print_alphabat(void)
 		_putchar(i);
 	}
 	_putchar('\n');
+	return;
 }
 
 /**
