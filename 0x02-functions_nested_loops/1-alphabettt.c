@@ -6,7 +6,7 @@
  *
  */
 
-void print_alphabet(void)
+void print_alphabet()
 {
 	char i;
 
@@ -15,4 +15,17 @@ void print_alphabet(void)
 		_putchar(i);
 	}
 	_putchar('\n');
+	return;
+}
+
+/**
+ * main - Entry Point
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	 print_alphabet();
+	return (0);
 }
