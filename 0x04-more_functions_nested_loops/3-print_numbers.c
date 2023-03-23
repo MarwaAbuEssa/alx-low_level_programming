@@ -1,16 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
 #include "main.h"
-
-/**
- * _putchar - print numbers from 0 to 9
- * @c: input charachter
- * Return: return putchar
- */
-int _putchar(char c)
-{
-		return (write(1, &c, 1));
-}
 
 /**
  *print_numbers - print numbers from 0 to 9
@@ -24,7 +13,7 @@ void print_numbers(void)
 
 	for (i = 0 ; i <= 9 ; i++)
 	{
-		_putchar(i + '0');
+		putchar(i + '0');
 	}
-	_putchar('\n');
+	putchar('\n');
 }
