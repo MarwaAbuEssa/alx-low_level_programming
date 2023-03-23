@@ -1,12 +1,22 @@
 #include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 
 /**
- * print_numbers - print numbers from 0 to 9
- *
- * Return: no return
+ * _putchar - print numbers from 0 to 9
+ * @c: input charachter
+ * Return: return putchar
  */
+int _putchar(char c)
+{
+		return (write(1, &c, 1));
+}
 
+/**
+ *print_numbers - print numbers from 0 to 9
+ *
+ *Return: no return
+ */
 
 void print_numbers(void)
 {
