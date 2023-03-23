@@ -9,12 +9,11 @@
 
 int main(void)
 {
-	int i, out;
+	int i, out = 0;
 
-	i = 98;
-	out = positive_or_negative(i);
-	if (out == (i + " is positive"))
-		return (0);
-	else
-		return (1);
+	i = 0;
+
+	positive_or_negative(i);
+
+	return (0);
 }
