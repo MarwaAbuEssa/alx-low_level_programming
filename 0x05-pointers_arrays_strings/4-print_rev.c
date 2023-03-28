@@ -14,9 +14,9 @@ void print_rev(char *s)
 	len = strlen(s);
 	for (i = len - 1; i >= len / 2; i--)
 	{
-		temp = s[i];
-		s[i] = s[len - i - 1];
-		s[len - i - 1] = temp;
+		temp = s[n - 1 - i];
+		s[n - 1 - i] = s[i];
+		s[i] = temp;
 	}
 	 printf("%s\n", s);
 }
