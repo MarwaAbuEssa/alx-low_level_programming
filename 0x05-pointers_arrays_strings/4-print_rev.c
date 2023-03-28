@@ -18,5 +18,4 @@ void print_rev(char *s)
 		s[n - 1 - i] = s[i];
 		s[i] = temp;
 	}
-	 printf("%s\n", s);
 }
