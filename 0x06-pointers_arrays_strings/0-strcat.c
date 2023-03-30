@@ -9,6 +9,7 @@
 char *_strcat(char *dest, char *src)
 {
 	char concat = (*dest) + (*src);
+
 	dest = &concat;
 	return (dest);
 }
