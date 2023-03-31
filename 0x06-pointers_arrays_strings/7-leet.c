@@ -9,14 +9,15 @@
 char *leet(char *s)
 {
 	int i = 0, j;
-	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	char leet[5] = { 'a', 'e', 'o', 't', 'l' };
+	char leet_rep[5] = { 4, 3, 0, 7, 1 };
 
 	while (s[i])
 	{
-		for (i = 0; j <= 7; j++)
+		for (j = 0; j < 5; j++)
 		{
 			if (s[i] == leet[j] || s[i] - 32 == leet[j])
-				s[i] = j + '0';
+				s[i] = leet_rep[j] + '0';
 		}
 		i++;
 	}
