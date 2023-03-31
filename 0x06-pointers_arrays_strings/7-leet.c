@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  * leet - strcmp from src to dest
@@ -16,7 +17,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (s[i] == leet[j] || s[i] - 32 == leet[j])
+			if (tolower(s[i]) == leet[j])
 				s[i] = leet_rep[j] + '0';
 		}
 		i++;
