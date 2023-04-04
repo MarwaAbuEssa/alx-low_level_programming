@@ -2,7 +2,7 @@
 
 /**
  *_strpbrk - get the length of a prefix substring
- * @s: A pointer to the memory area to search
+ * @s: A pointer the memory area to search
  * @accept: prefix
  * Return: A pointer to the result memory
  */
