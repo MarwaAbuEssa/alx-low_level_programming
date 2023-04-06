@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * isEqual - function to check if 2 char are equal
