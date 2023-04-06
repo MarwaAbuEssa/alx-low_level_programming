@@ -22,7 +22,7 @@ int is_divisible(int num, int div)
  * @n: char as input
  * Return: return length
  */
-nt is_prime_number(int n)
+int is_prime_number(int n)
 {
 
 	int div = 2;
