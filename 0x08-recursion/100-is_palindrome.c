@@ -17,7 +17,9 @@ int isEqual(char *s, int left, int right)
 		return (result);
 
 	if (s[left] == s[right])
-		return (isEqual(s, left + 1, right + 1));
+	{
+		return (isEqual(s, left + 1, right - 1));
+	}
 	else
 		return (0);
 }
