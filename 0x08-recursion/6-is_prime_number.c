@@ -18,7 +18,7 @@ int is_divisible(int num, int div)
 	return (is_divisible(num, div + 1));
 }
 /**
- * int is_prime_number - fractinoal of number
+ * is_prime_number - fractinoal of number
  * @n: char as input
  * Return: return length
  */
