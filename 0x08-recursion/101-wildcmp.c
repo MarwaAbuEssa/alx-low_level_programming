@@ -22,10 +22,11 @@ int strlen_no_wilds(char *str)
 	return (len);
 }
 
-/*
+/**
  * iterate_wild - Iterates through a string located at a wildcard
  * @wildstr: The string to be iterated through
  */
+
 void iterate_wild(char **wildstr)
 {
 	if (**wildstr == '*')
@@ -35,12 +36,14 @@ void iterate_wild(char **wildstr)
 	}
 }
 
-/*
+
+/**
  * postfix_match - Checks if a string str matches the postfix
  * @str: The string to be matched.
  * @postfix: The postfix.
  * Return: If str and postfix are identical
  */
+
 char *postfix_match(char *str, char *postfix)
 {
 	int str_len = strlen_no_wilds(str) - 1;
@@ -63,6 +66,7 @@ char *postfix_match(char *str, char *postfix)
  * @s2: second string
  * Return: return 1 or 0
  */
+
 int wildcmp(char *s1, char *s2)
 {
 	if (*s2 == '*')
