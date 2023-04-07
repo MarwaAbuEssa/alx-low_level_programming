@@ -46,10 +46,10 @@ char *postfix_match(char *str, char *postfix)
 	int str_len = strlen_no_wilds(str) - 1;
 	int postfix_len = strlen_no_wilds(postfix) - 1;
 
-	if(*postfic == '*')
+	if (*postfix == '*')
 		iterate_wild(&postfix);
 
-	if(*(str + str_len - postfix_len) == *postfix && *postfix != '\0')
+	if (*(str + str_len - postfix_len) == *postfix && *postfix != '\0')
 	{
 		postfix++;
 		return (postfix_match(str, postfix));
@@ -73,7 +73,7 @@ int wildcmp(char *s1, char *s2)
 
 	if (*s2 == '\0')
 		return (1);
-	if(*s1 != *s2)
+	if (*s1 != *s2)
 		return (0);
 
 	return (wildcmp(++s1, ++s2));
