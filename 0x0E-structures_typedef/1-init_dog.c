@@ -5,7 +5,7 @@
  * init_dog - init the dog stru
  * @d: the dog
  * @name: the name
- * @age: the age 
+ * @age: the age
  * @owner: the owner
  *
  */
