@@ -5,7 +5,7 @@
  * struct list_s - linked list
  * @str: string
  * @len: length
- * @next: pointer of next 
+ * @next: poinert
  */
 typedef struct list_s
 {
