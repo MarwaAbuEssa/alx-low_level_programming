@@ -12,13 +12,12 @@
 size_t print_listint(const listint_t *h)
 {
 	size_t number_of_nodes = 0;
-	listint_t *navigator = h;
 
-	while (navigator != NULL)
+	while (h != NULL)
 	{
 		number_of_nodes++;
-		printf("%d\n", navigator->n);
-		navigator = navigator->link;
+		printf("%d\n", h->n);
+		h = h->next;
 	}
 	return (number_of_nodes);
 }

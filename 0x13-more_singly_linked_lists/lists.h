@@ -10,7 +10,7 @@
  * Description: singly linked list structure
  */
 
-typeof struct listint_s
+typedef struct listint_s
 {
 	int n;
 	struct listint_s *next;
