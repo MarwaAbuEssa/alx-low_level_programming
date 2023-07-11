@@ -5,7 +5,7 @@
  * argstostr - concatenates arguments of the program
  * @ac: The number of arguments
  * @av: An array of pointers
- * Return: If ac or av 
+ * Return: If ac or av
  */
 
 char *argstostr(int ac, char **av)
