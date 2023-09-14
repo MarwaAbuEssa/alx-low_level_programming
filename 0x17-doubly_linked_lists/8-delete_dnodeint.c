@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * delete_dnodeint_at_index - deletes a node 
+ * delete_dnodeint_at_index - deletes a node
  * @head: head pointer.
  * @index: index .
  * Return: - 1.

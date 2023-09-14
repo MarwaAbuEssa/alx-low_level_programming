@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - inserts a new node 
+ * insert_dnodeint_at_index - inserts a new node
  * @h: header pointer.
  * @idx: index.
- * @n:  integer 
+ * @n:  integer
  *
  * Return:  NULL.
  */
