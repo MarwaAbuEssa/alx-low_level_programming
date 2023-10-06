@@ -3,7 +3,7 @@
 /**
  * hash_table_print - Prints a hash table.
  * @ht: pointer to the hash table.
- * Description: Key/value  printed 
+ * Description: Key/value  printed
  */
 void hash_table_print(const hash_table_t *ht)
 {
