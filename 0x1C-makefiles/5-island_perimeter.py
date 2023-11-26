@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """an island perimeter measuring fun."""
 
+
 def island_perimeter(grid):
     """Return the perimiter of an island.
     grid water by 0 and land by 1.
